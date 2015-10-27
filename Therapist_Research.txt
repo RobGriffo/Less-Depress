@@ -1,0 +1,4 @@
+The background colour is green as it is known as a positive colour.
+Bring in stress solutions to help certain stressfull moments.
+Our concept seems to be on the right track and they said that it would be useful to target certain moments.
+It may be difficult to have a drop down menu with specific details so it will be better to make it more generic and let them specify the problem in the notepad.
