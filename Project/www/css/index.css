@@ -207,3 +207,20 @@ h1 {
     animation:fade 3000ms infinite;
     -webkit-animation:fade 3000ms infinite;
 }
+.MoodlifterButtons
+{
+	border-style: solid;
+    border-width: 2px;
+	border-radius: 25px;
+	margin-top:20px;
+	margin-bottom:0px;
+	padding-top:-10px;
+	margin-left: 0px;
+	margin-right:0px;
+	font-size:10pt;
+	color:white;
+	width:200px;
+	height: 60px;
+	text-align:center;
+	float:left;
+}
