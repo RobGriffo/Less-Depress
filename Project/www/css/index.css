@@ -212,7 +212,7 @@ h1 {
 	border-style: solid;
     border-width: 2px;
 	border-radius: 25px;
-	margin-top:20px;
+	
 	margin-bottom:0px;
 	padding-top:-10px;
 	margin-left: 0px;
@@ -223,4 +223,14 @@ h1 {
 	height: 50px;
 	text-align:center;
 	float:left;
+}
+#MLinterface{
+	margin-top:-30px;
+	position:absolute;  /* position in the center of the screen */
+    height:70%;                   /* text area height */
+    width:90%;  	/* text area width */
+	left: 17.5%;
+    text-align:center;
+	padding-left: 10px;
+	padding-right: 10px;
 }
