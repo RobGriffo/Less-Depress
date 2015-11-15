@@ -37,12 +37,51 @@
 				padding-bottom: 15px;
 				background-color: white;
 			}
+			
+			.boiler2{
+		/*		background:url(www/img/logo2SideView.png) no-repeat left top;  170px x 200px */
+				position:absolute;  /* position in the center of the screen */
+				left:35%;
+				top:0%;
+				height:440px;                   /* text area height */
+				width:340px;                   /* text area width */
+				text-align:left;
+				padding:0px 0px 0px 0px;     /* image height is 200px (bottom 20px are overlapped with text) */
+				margin:0px 0px 0px -112px;
+			}
+			.menu{
+				float: right;
+				margin: 1px;
+				margin-right: 10px;
+				border:3px groove lightgrey;
+				background-color: green;
+				padding: 7px;
+			}
+			.menu a{
+				text-decoration:none;
+				color: white;
+
+			}
+			
+			
+			.topBar{
+				height: 55px;
+				width: 335px;
+				border:3px groove lightgrey;
+				margin-left: -1px;
+				padding-top:  5px;
+			}
 		</style>
 
     </head>
     <body>
 		
-        <div class="boiler">
+        <div class="boiler2">
+		<div class = "topBar">
+			<img src="www/img/logo2SideView.png" alt="logo" height="45px">
+			<button class="menu"><a href= "UI.html">Main <br> Menu </a></button>
+		</div>
+
 		<div class="container">  <!-- Container for white background for text -->
 		<div >		
 			<h2>Support Groups</h2>
@@ -109,10 +148,6 @@
   
 		
         </div>
-        <script type="text/javascript" src="cordova.js"></script>
-        <script type="text/javascript" src="js/index.js"></script>
-        <script type="text/javascript">
-            app.initialize();
-        </script>
+
     </body>
 </html>
