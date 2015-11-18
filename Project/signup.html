@@ -20,7 +20,7 @@
     under the License.
 -->
 <?php 
-$dbconn = pg_connect("host=108.61.175.209 port=5432 dbname=LessStress user=Defaultw/r password=foo");
+$dbconn = pg_connect("host=108.61.175.209 port=5432 dbname=LessStress user=Defaultw/r password=foo") or die('Could not connect: ' . pg_last_error());;
 ?>
 <html>
     <head>
